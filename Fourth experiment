@@ -1,0 +1,36 @@
+CREATE TABLE employee1 (  
+    employee_id INT PRIMARY KEY,  
+    employee_name VARCHAR(100),  
+    emp_age INT,  
+    emp_salary DECIMAL(10, 2)  
+)
+
+INSERT INTO EMPLOYEE1 VALUES (1, 'John Doe', 25, 50000)
+
+INSERT INTO EMPLOYEE1 VALUES (2, 'Jane Smith', 30, 60000)
+
+INSERT INTO EMPLOYEE1 VALUES (3, 'Alice Johnson', 28, 45000)
+
+INSERT INTO EMPLOYEE1 VALUES (4, 'Bob Williams', 32, 70000)
+
+INSERT INTO EMPLOYEE1 VALUES (6, 'David Lee', 31, 65000)
+
+INSERT INTO EMPLOYEE1 VALUES (5, 'Charlie Brown', 27, 55000)
+
+INSERT INTO EMPLOYEE1 VALUES (7, 'Emily Taylor', 29, 52000)
+
+SELECT COUNT(*) FROM employee1
+
+SELECT MAX(emp_age) FROM employee1
+
+SELECT MIN(emp_salary) FROM employee1
+
+SELECT SUM(emp_age) FROM employee1 
+
+SELECT AVG(emp_salary) FROM employee1
+
+SELECT emp_salary FROM employee1
+
+SELECT emp_salary FROM employee1 
+
+select * from EMPLOYEE1
