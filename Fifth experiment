@@ -1,0 +1,19 @@
+select * from EMPLOYEE
+
+select* from DEPARTMENT 
+
+
+ALTER TABLE department 
+ADD CONSTRAINT pk_dept_no PRIMARY KEY (dept_no)
+
+alter table employee 
+add dept_no number
+
+SELECT job
+FROM EMPLOYEE
+WHERE d_name = 'Finance';
+
+
+SELECT MAX(salary) AS max_salary
+FROM EMPLOYEE
+WHERE d_name = 'Marketing';
